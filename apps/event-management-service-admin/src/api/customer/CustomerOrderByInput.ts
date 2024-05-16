@@ -1,6 +1,7 @@
 import { SortOrder } from "../../util/SortOrder";
 
 export type CustomerOrderByInput = {
+  comment?: SortOrder;
   createdAt?: SortOrder;
   fistName?: SortOrder;
   id?: SortOrder;
